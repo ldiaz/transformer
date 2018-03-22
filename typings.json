@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "babel-traverse": "registry:dt/babel-traverse#6.7.0+20170208111749",
+    "babel-types": "registry:dt/babel-types#6.7.0+20160620211513"
+  }
+}

@@ -1,0 +1,98 @@
+// ---------------------------------
+// test-cumulativeEnv.js
+// ---------------------------------
+
+[stdin]:1919
+                            throw "ac: call to special method (Env)";
+                            ^
+ac: call to special method (Env)
+// ---------------------------------
+// test-finalResult.js
+// ---------------------------------
+Test failed:
+expected:
+a a 0 f 
+result:
+a a f 
+// ---------------------------------
+// test-propRead-02.js
+// ---------------------------------
+Test failed:
+expected:
+-1 
+result:
+<empty array>
+// ---------------------------------
+// test-propRead-03.js
+// ---------------------------------
+Test failed:
+expected:
+get get get get get 
+result:
+<empty array>
+// ---------------------------------
+// test-usingEnvironmentAsAspectJ.js
+// ---------------------------------
+
+[stdin]:1919
+                            throw "ac: call to special method (Env)";
+                            ^
+ac: call to special method (Env)
+// ---------------------------------
+// test-varsInCatchs.js
+// ---------------------------------
+Test failed:
+expected:
+e e2 
+result:
+<empty array>
+// ---------------------------------
+// test02-pcjpresult.js
+// ---------------------------------
+Test failed:
+expected:
+The poincut of an aspect was evaluated before jp.finalResult is available 
+result:
+1 
+// ---------------------------------
+// test21-modifyingJPData.js
+// ---------------------------------
+
+[stdin]:1883
+                            throw "ac: pw of JP";
+                            ^
+ac: pw of JP
+// ---------------------------------
+// test24-matchPc.js
+// ---------------------------------
+Test failed:
+expected:
+PC-pc: [exec: ] foo 
+result:
+PC-pc: [exec: pointcut] foo 
+// ---------------------------------
+// testField06-varCflow.js
+// ---------------------------------
+Test failed:
+expected:
+1 
+result:
+<empty array>
+// ---------------------------------
+// testRee16-jpOrder.js
+// ---------------------------------
+Test failed:
+expected:
+1 
+result:
+1 99 
+// ---------------------------------
+// testRee25-SameAspectinDifferentLevels.js
+// ---------------------------------
+Test failed:
+expected:
+level: 1 level: 2 
+result:
+level: 1 
+
+// Failed 12 of 105 tests.
